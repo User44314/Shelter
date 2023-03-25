@@ -392,3 +392,263 @@ header {
     vertical-align: middle;
     color: #4C4C4C;
 }
+
+
+/* --------------------------------pets-------------------------------- */
+
+
+
+.pets {
+    position: absolute;
+    width: 1280px;
+    height: 877px;
+    top: 1496px;
+    color: #F6F6F6;
+}
+
+.pets_content {
+    position: absolute;
+    width: 1200px;
+    height: 697px;
+    top: 80px;
+    left: 40px;
+}
+
+.headingPets {
+    position: relative;
+    width: 400px;
+    height: 90px;
+    left: 400px;
+    color: #545454;
+    font-family: 'Georgia';
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    vertical-align: middle;
+    top: -20px;
+}
+
+
+.slider {
+    width: 1200px;
+    height: 435px;
+    top: 150px;
+}
+
+.card1 {
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: 105px;
+    gap: 30px;
+    border-radius: 9px;
+    color: #FAFAFA;
+}
+
+.card2 {
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: 465px;
+    gap: 30px;
+    color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.card3 {
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: 825px;
+    border-radius: 9px;
+    gap: 9px;
+    color: #FAFAFA;
+}
+
+
+.katrineK {
+    position: absolute;
+    width: 74px;
+    height: 23px;
+    top: 300px;
+    left: 96px;
+    font-weight: 400;
+    color: #545454;
+}
+
+.jeniferJ {
+    position: absolute;
+    width: 83px;
+    height: 23px;
+    top: 300px;
+    left: 96px;
+    font-weight: 400;
+    color: #545454;
+}
+
+.woodyW {
+    position: absolute;
+    width: 68px;
+    height: 23px;
+    top: 300px;
+    left: 101px;
+    font-weight: 400;
+    color: #545454;
+
+}
+
+.button_K {
+    position: absolute;
+    width: 187px;
+    height: 52px;
+    padding: 15px, 45px, 15px, 45px;
+    top: 353px;
+    background-color: #F1CDB3;
+    border-radius: 45%;
+    gap: 10px;
+    border: 2px;
+    left: 45px;
+}
+
+
+.button_J {
+    position: absolute;
+    width: 187px;
+    height: 52px;
+    padding: 15px, 45px, 15px, 45px;
+    top: 353px;
+    background-color: #F1CDB3;
+    border-radius: 45%;
+    gap: 10px;
+    border: 2px;
+    left: 45px;
+}
+
+
+.button_W {
+    position: absolute;
+    width: 187px;
+    height: 52px;
+    padding: 15px, 45px, 15px, 45px;
+    top: 353px;
+    background-color: #F1CDB3;
+    border-radius: 45%;
+
+    border-color: red;
+    gap: 10px;
+    border: 2px;
+    left: 45px;
+}
+
+.bk {
+    margin: auto;
+    color: #292929;
+    width: 97px;
+    height: 22px;
+    top: 15px;
+    left: 45px;
+}
+
+.jk {
+    margin: auto;
+    color: #292929;
+    width: 97px;
+    height: 22px;
+    top: 15px;
+    left: 45px;
+}
+
+.wk {
+    margin: auto;
+    color: #292929;
+    width: 97px;
+    height: 22px;
+    top: 15px;
+    left: 45px;
+}
+
+.buttonPrimery {
+    position: absolute;
+    width: 261px;
+    height: 52px;
+    top: 645px;
+    left: 470px;
+    border-radius: 100%;
+    padding: 15px, 45px, 15px, 45px;
+    gap: 10px;
+    background-color: #F1CDB3;
+}
+
+.bpri {
+    position: absolute;
+    color: #292929;
+    width: 171px;
+    height: 22px;
+    top: 5px;
+    left: 45px;
+
+}
+
+.button_arrow_left {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 192px;
+    border-radius: 100%;
+    background-color: #F1CDB3;
+
+}
+
+
+.button_arrow_left {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 192px;
+    border-radius: 100%;
+    background-color: #F1CDB3;
+
+}
+
+.button_arrow_right {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 1200px;
+    top: 192px;
+    border-radius: 100%;
+    background-color: #F1CDB3;
+}
+
+
+
+/* -------------------------help-------------------------- */
+
+
+.help {
+    position: relative;
+    width: 1280px;
+    height: 611px;
+    top: 2373px;
+    left: 1280px;
+    color: #FFFFFF;
+}
+
+.help_content {
+position: relative;
+    width: 1200px;
+    height: 431px;
+    top: 80px;
+    left: 1240px;
+}
+
+
+
+
+.donation{
+    position: relative;
+    width: 1280px;
+    height: 462px;
+    top: 2984px;
+    color: #F6F6F6;
+}
