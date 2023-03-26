@@ -1,6 +1,6 @@
 .center {
-    position: relative;
     margin: auto;
+    position: relative;
 }
 
 header {
@@ -215,7 +215,8 @@ header {
 }
 
 .start_screen {
-    background-color: #5B483A;
+    background-image: linear-gradient(90deg, #5B483A, #262425, #211F20);
+    /*  background-color: #e4650a; */
     background-size: 100%;
     width: 1280px;
     height: 908px;
@@ -626,16 +627,18 @@ header {
 
 
 .help {
-    position: relative;
+    position: absolute;
     width: 1280px;
     height: 611px;
+    left: 0px;
+    right: -100%;
     top: 2373px;
-    left: 1280px;
-    color: #FFFFFF;
+    background: #FFFFFF;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .help_content {
-position: relative;
+    position: relative;
     width: 1200px;
     height: 431px;
     top: 80px;
@@ -643,12 +646,365 @@ position: relative;
 }
 
 
+/* ---------------------------------donation---------------------------- */
 
 
-.donation{
-    position: relative;
+
+.donation {
+    position: absolute;
     width: 1280px;
     height: 462px;
+    left: 0%;
+    right: 0%;
     top: 2984px;
-    color: #F6F6F6;
+
+    /* color-light-l */
+
+    background: #F6F6F6;
+}
+
+.donation_content {
+    position: absolute;
+    width: 915px;
+    height: 282px;
+    left: 183px;
+    top: 80px;
+}
+
+.donation_dog {
+    position: absolute;
+    width: 505px;
+    height: 261px;
+    left: 0px;
+    top: 11px;
+}
+
+
+.donation_content2 {
+    position: absolute;
+    width: 380px;
+    height: 282px;
+    left: 535px;
+    top: 0px;
+}
+
+.donation_hed {
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+
+}
+
+h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.donation_subhead {
+    position: absolute;
+    width: 307px;
+    height: 17px;
+    left: 0px;
+    top: 110px;
+}
+
+h5 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.90em;
+    line-height: 17px;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.inform_donate {
+    position: absolute;
+    width: 380px;
+    height: 72px;
+    left: 0px;
+    top: 210px;
+}
+
+
+
+.inform_donate .ido {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+    align-items: center;
+
+    /* color-dark-m */
+
+    color: #B2B2B2;
+}
+
+.credit {
+    position: absolute;
+    width: 349px;
+    height: 43px;
+    left: 0px;
+    top: 160px;
+    background: #F1CDB3;
+    border-radius: 9px;
+    align-items: center;
+    padding: 10px, 15px, 10px, 15px;
+    gap: 10px;
+}
+
+.area_credit {
+    width: 319px;
+    height: 23px;
+    top: 10px;
+    left: 15px;
+}
+
+.number_credit {
+    position: absolute;
+    width: 319px;
+    height: 23px;
+    top: -15px;
+    left: 30px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #545454;
+}
+
+
+
+/* ------------------------------footer------------------------------ */
+
+.footer {
+    position: absolute;
+    width: 1280px;
+    height: 350px;
+    left: 0%;
+    right: 0%;
+    top: 3446px;
+    background-image: linear-gradient(100deg, #513D2F, #211F20, #1A1A1C);
+}
+
+.footer_content {
+    position: absolute;
+    width: 1200px;
+    height: 310px;
+    left: 40px;
+    top: 40px;
+}
+
+.footer_dog {
+    position: absolute;
+    width: 300px;
+    height: 310px;
+    left: calc(50% - 300px/2 + 450px);
+    top: 0px;
+}
+
+.footer_contact {
+    position: absolute;
+    width: 278px;
+    height: 234px;
+    left: 0px;
+    top: 16px;
+}
+
+.footer_location {
+    position: absolute;
+    width: 302px;
+    height: 234px;
+    left: 438px;
+    top: 16px;
+}
+
+.footer_title {
+    position: absolute;
+    width: 278px;
+    height: 90px;
+    left: calc(50% - 278px/2 - 0px);
+    top: 0px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+
+}
+
+
+
+.mail {
+    position: absolute;
+    width: 251px;
+    height: 32px;
+    left: 0px;
+    top: 130px;
+}
+
+.mail_icon {
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    left: 3px;
+    top: 0px;
+}
+
+.mail_text {
+    position: absolute;
+    width: 191px;
+    height: 23px;
+    left: 60px;
+    top: -23px;
+
+    /* h4 */
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3
+}
+
+.phone {
+    position: absolute;
+    width: 239px;
+    height: 32px;
+    left: 0px;
+    top: 202px;
+
+}
+
+.phone_icon {
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    left: 0;
+    top: 0px;
+}
+
+.phone_contact {
+    position: absolute;
+    width: 179px;
+    height: 23px;
+    left: 60px;
+    top: -20px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+
+.location_head {
+    position: absolute;
+    width: 270px;
+    height: 90px;
+    left: calc(50% - 270px/2 - 15px);
+    top: 5px;
+
+    /* h3 */
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    /* or 45px */
+
+    letter-spacing: 0.06em;
+
+    /* color-light-xl */
+
+    color: #FFFFFF;
+}
+
+.location_street {
+    position: absolute;
+    width: 302px;
+    height: 46px;
+    left: 0px;
+    top: 124px;
+}
+
+.location1 {
+    position: absolute;
+    width: 260px;
+    height: 46px;
+    left: calc(50% - 260px/2 + 21px);
+    top: -20px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.icon_location {
+    position: absolute;
+    width: 22px;
+    height: 32px;
+    left: calc(50% - 22px/2 - 140px);
+    top: 12px;
+}
+
+
+.location_street2 {
+    position: absolute;
+    width: 302px;
+    height: 32px;
+    left: 0px;
+    top: 202px;
+}
+
+.icon_location2 {
+    position: absolute;
+    width: 22px;
+    height: 32px;
+    left: calc(50% - 22px/2 - 140px);
+    top: 0px;
+}
+
+.location2 {
+    position: absolute;
+    width: 260px;
+    height: 23px;
+    left: calc(50% - 260px/2 + 21px);
+    top: -20px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
 }
