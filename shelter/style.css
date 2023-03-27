@@ -498,19 +498,187 @@ header {
 
 }
 
-.button_K {
+/* .button_K {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
     position: absolute;
     width: 187px;
     height: 52px;
-    padding: 15px, 45px, 15px, 45px;
+    left: 41.5px;
     top: 353px;
-    background-color: #F1CDB3;
-    border-radius: 45%;
-    gap: 10px;
-    border: 2px;
-    left: 45px;
+} */
+
+.buton_section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 187px;
+    height: 52px;
+    left: 41.5px;
+    top: 353px;
 }
 
+.button_prim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px, 45px, 15px, 45px;
+    gap: 10px;
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text_button {
+    width: 97px;
+    height: 22px;
+    top: auto;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.buton_section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 187px;
+    height: 52px;
+    left: 400px;
+    top: 353px;
+}
+
+.button_prim1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px, 45px, 15px, 45px;
+    gap: 10px;
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text_button1 {
+    width: 97px;
+    height: 22px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    /* identical to box height, or 22px */
+
+    letter-spacing: 0.06em;
+
+    /* color-dark-3xl */
+
+    color: #292929;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.buton_section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 187px;
+    height: 52px;
+    left: 750px;
+    top: 353px;
+}
+
+.button_prim2 {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px 15px, 45px;
+    gap: 10px;
+
+    width: 187px;
+    height: 52px;
+
+    /* color-primary */
+
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text_button2 {
+    width: 97px;
+    height: 22px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    /* identical to box height, or 22px */
+
+    letter-spacing: 0.06em;
+
+    /* color-dark-3xl */
+
+    color: #292929;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.container0 {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
 
 .button_J {
     position: absolute;
@@ -542,12 +710,28 @@ header {
 }
 
 .bk {
-    margin: auto;
-    color: #292929;
     width: 97px;
     height: 22px;
-    top: 15px;
-    left: 45px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    /* identical to box height, or 22px */
+
+    letter-spacing: 0.06em;
+
+    /* color-dark-3xl */
+
+    color: #292929;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .jk {
@@ -570,23 +754,38 @@ header {
 
 .buttonPrimery {
     position: absolute;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px;
+    gap: 10px;
+
+    position: absolute;
     width: 261px;
     height: 52px;
-    top: 645px;
     left: 470px;
-    border-radius: 100%;
-    padding: 15px, 45px, 15px, 45px;
-    gap: 10px;
-    background-color: #F1CDB3;
+    top: 645px;
+    background: #F1CDB3;
+    border-radius: 100px;
 }
 
 .bpri {
-    position: absolute;
+    position: relative;
+    width: 171em;
+    height: 22em;
+    left: 43px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    /* identical to box height, or 22px */
+
+    letter-spacing: 0.06em;
+
+    /* color-dark-3xl */
+
     color: #292929;
-    width: 171px;
-    height: 22px;
-    top: 5px;
-    left: 45px;
+    ;
 
 }
 
@@ -1103,14 +1302,15 @@ a.mail_text {
     text-decoration: none;
 }
 
-a.location1{
+a.location1 {
     text-decoration: none;
 }
 
-a.location2{
+a.location2 {
     text-decoration: none;
 }
-a.logo_title{
+
+a.logo_title {
     text-decoration: none;
 }
 
