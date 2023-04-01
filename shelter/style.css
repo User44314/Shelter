@@ -283,7 +283,7 @@ header {
 
     flex-direction: column;
     align-items: center;
-    padding: 15px 45px;
+    padding: 15px, 45px, 15px, 45px;
     gap: 10px;
     top: 270px;
     position: absolute;
@@ -301,10 +301,11 @@ header {
 
 .button_text {
     position: absolute;
+    margin: auto;
     width: 117px;
     height: 22px;
     top: 15px;
-    left: 100px;
+    left: 60px;
     line-height: 22.1px;
     color: #292929;
     vertical-align: top;
@@ -350,6 +351,7 @@ header {
     width: 300px;
     height: 408px;
     left: 175px;
+    color: #F6F6F6;
 }
 
 .content_pets {
@@ -408,7 +410,7 @@ header {
     width: 1280px;
     height: 877px;
     top: 1496px;
-    color: #F6F6F6;
+    background-color: #F6F6F6;
 }
 
 .pets_content {
@@ -1366,8 +1368,13 @@ a:hover {
 
 @media screen and (max-width: 1280px) {}
 
+html {
+    overflow-x: hidden;
+}
 
 @media screen and (max-width: 768px) {
+
+
     .start_screen {
         width: 768px;
         height: 1165px;
@@ -1390,7 +1397,9 @@ a:hover {
     }
 
     .content {
+        height: 322px;
         left: 55px;
+        top: 0px;
     }
 
     .button {
@@ -1399,14 +1408,127 @@ a:hover {
 
     .dog1 {
         position: absolute;
-        width: 385px;
-        height: 400px;
-        left: 160px;
+        width: 569px;
+        height: 593px;
+        left: 100px;
         bottom: 0px;
-        top: 585px;
+        top: 393px;
     }
 
+
+
+    /*    -------------- */
+
+    .about {
+        Width: 768px;
+        Height: 1048px;
+        Top: 1165px;
+    }
+
+    .about_content {
+        flex-direction: column;
+        position: absolute;
+        width: 437px;
+        height: 868px;
+        left: calc(50% - 437px/2 - 0.5px);
+        top: calc(50% - 868px/2 - 10px);
+    }
+
+    .content_pets {
+        width: 400px;
+        height: 380px;
+        left: 4px;
+    }
+
+    .pets1 {
+        position: absolute;
+        width: 300px;
+        height: 408px;
+        left: 69px;
+        top: 460px;
+    }
+
+
+    /* --------------------- */
+
+    .pets {
+        width: 768px;
+        height: 877px;
+        top: 2213px;
+        background-color: #F6F6F6;
+    }
+
+    .pets_content {
+        width: 708px;
+        height: 697px;
+        top: 80px;
+        left: 30px;
+    }
+
+    .headingPets {
+        width: 400px;
+        height: 90px;
+        left: 154px;
+    }
+
+    .slider {
+        width: 708px;
+        height: 435px;
+        top: 150px;
+    }
+
+    .buttonPrimery {
+        left: 234px;
+    }
+
+    .help {
+        width: 768px;
+        height: 779px;
+        top: 3090px;
+    }
+    .help_content1{
+        width: 630px;
+        height: 599px;
+        top: 80px;
+        left: 69px;
+    }
+
+    .help_head{
+        width: 308px;
+        height: 90px;
+        left: 161px;
+    }
+    .list{
+        width: 630px;
+        height: 449px;
+        top: 150px;
+    }
+
+    .donation{
+        width: 768px;
+        height: 783px;
+        top: 3869px;
+    }
+
+    .footer{
+        width: 768px;
+        height: 639px;
+        top: 4652px;
+    }
+
+    .footer_dog{
+        width: 300px;
+        height: 310px;
+        top: 329px;
+        left: 234px;
+
+    }
 }
 
 
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 320px) {
+    html {
+        overflow-x: hidden;
+
+    }
+}
