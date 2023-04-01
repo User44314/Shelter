@@ -429,8 +429,65 @@ header {
     top: -20px;
 }
 
-
+                                          /* ----new redacting------- */
 .slider {
+    display: grid;
+    grid-template-columns: repeat(3,270px);
+    column-gap: 90px;
+    width: 990px;
+    height: 435px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+   top: -8px;
+  }
+
+  .img_items {
+    width: 270px;
+    height: 435px;
+    background: #FAFAFA;
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+  .img_items:hover button {
+    background-color: #FDDCC4;
+  }
+  .item_title {
+    width: 74px;
+    height: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    margin-top: 30px;
+    color: #545454;
+  }
+  .img_items_button {
+    position: relative;
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CBD3;
+    border-radius: 100px;
+    left: 41.5px;
+    top: 30px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    color: #292929;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+  }
+
+/* .slider {
     width: 1200px;
     height: 435px;
     top: 150px;
@@ -465,9 +522,9 @@ header {
     gap: 9px;
     color: #FAFAFA;
 }
+ */
 
-
-.katrineK {
+/* .katrineK {
     position: absolute;
     width: 74px;
     height: 23px;
@@ -496,23 +553,10 @@ header {
     font-weight: 400;
     color: #545454;
 
-}
-
-/* .button_K {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
-    width: 187px;
-    height: 52px;
-    left: 41.5px;
-    top: 353px;
 } */
 
-.buton_section {
+
+/* .buton_section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -593,23 +637,22 @@ header {
     font-weight: 400;
     font-size: 15px;
     line-height: 130%;
-    /* identical to box height, or 22px */
+
 
     letter-spacing: 0.06em;
 
-    /* color-dark-3xl */
+
 
     color: #292929;
 
 
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
     flex-grow: 0;
-}
+} */
 
-.buton_section2 {
+/* .buton_section2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -624,25 +667,15 @@ header {
 
 .button_prim2 {
     box-sizing: border-box;
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 15px 45px 15px, 45px;
     gap: 10px;
-
     width: 187px;
     height: 52px;
-
-    /* color-primary */
-
     border: 2px solid #F1CDB3;
     border-radius: 100px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -657,30 +690,21 @@ header {
     font-weight: 400;
     font-size: 15px;
     line-height: 130%;
-    /* identical to box height, or 22px */
-
     letter-spacing: 0.06em;
-
-    /* color-dark-3xl */
-
     color: #292929;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
-}
+} */
 
-.container0 {
+/* .container0 {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
 
-}
+} */
 
-.button_J {
+/* .button_J {
     position: absolute;
     width: 187px;
     height: 52px;
@@ -707,9 +731,9 @@ header {
     gap: 10px;
     border: 2px;
     left: 45px;
-}
+} */
 
-.bk {
+/* .bk {
     width: 97px;
     height: 22px;
 
@@ -718,17 +742,8 @@ header {
     font-weight: 400;
     font-size: 17px;
     line-height: 130%;
-    /* identical to box height, or 22px */
-
     letter-spacing: 0.06em;
-
-    /* color-dark-3xl */
-
     color: #292929;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -750,7 +765,7 @@ header {
     height: 22px;
     top: 15px;
     left: 45px;
-}
+} */
 
 .buttonPrimery {
     position: absolute;
@@ -1334,4 +1349,24 @@ a:hover {
     background-color: #141010;
     color: #292929;
     text-decoration: none;
+}
+
+
+
+
+
+/* -----media--------- */
+
+@media screen and (max-width: 1280px){
+
+}
+
+
+@media screen and (max-width: 768px){
+    
+}
+
+
+@media screen and (max-width: 320px){
+    
 }
