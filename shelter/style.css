@@ -1,6 +1,18 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 .center {
     margin: auto;
     position: relative;
+    width: 1280px;
 }
 
 header {
@@ -68,10 +80,10 @@ header {
 }
 
 .nav_menu {
-    width: 443px;
-    height: 27px;
-    left: 757px;
-    top: 16px;
+    position: absolute;
+    width: 708px;
+    height: 60px;
+    top: 0px;
 }
 
 .link_active {
@@ -84,8 +96,8 @@ header {
     padding: 0px;
     position: absolute;
     right: 329px;
-
 }
+
 
 .link {
     display: flex;
@@ -205,14 +217,14 @@ header {
 /* ======= */
 
 
-#start_screen {
+/* .start_screen {
     position: absolute;
     height: 908px;
     left: 0%;
     right: 0%;
     top: 0px;
 
-}
+} */
 
 .start_screen {
     background-image: linear-gradient(90deg, #5B483A, #262425, #211F20);
@@ -421,20 +433,20 @@ header {
     top: -20px;
 }
 
-                                          /* ----new redacting------- */
+/* ----new redacting------- */
 .slider {
     display: grid;
-    grid-template-columns: repeat(3,270px);
+    grid-template-columns: repeat(3, 270px);
     column-gap: 90px;
     width: 990px;
     height: 435px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-   top: -8px;
-  }
+    top: -8px;
+}
 
-  .img_items {
+.img_items {
     width: 270px;
     height: 435px;
     background: #FAFAFA;
@@ -443,11 +455,13 @@ header {
     margin-right: 0;
     margin-bottom: 0;
     cursor: pointer;
-  }
-  .img_items:hover button {
+}
+
+.img_items:hover button {
     background-color: #FDDCC4;
-  }
-  .item_title {
+}
+
+.item_title {
     width: 74px;
     height: 23px;
     margin-left: auto;
@@ -460,8 +474,9 @@ header {
     letter-spacing: 0.06em;
     margin-top: 30px;
     color: #545454;
-  }
-  .img_items_button {
+}
+
+.img_items_button {
     position: relative;
     width: 187px;
     height: 52px;
@@ -477,7 +492,7 @@ header {
     color: #292929;
     letter-spacing: 0.06em;
     cursor: pointer;
-  }
+}
 
 /* .slider {
     width: 1200px;
@@ -1349,16 +1364,49 @@ a:hover {
 
 /* -----media--------- */
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) {}
+
+
+@media screen and (max-width: 768px) {
+    .start_screen {
+        width: 768px;
+        height: 1165px;
+    }
+
+    .link_active {
+        left: 265px;
+    }
+
+    .link2 {
+        left: 414px;
+    }
+
+    .link3 {
+        left: 507px;
+    }
+
+    .link4 {
+        left: 648px;
+    }
+
+    .content {
+        left: 55px;
+    }
+
+    .button {
+        left: 126px;
+    }
+
+    .dog1 {
+        position: absolute;
+        width: 385px;
+        height: 400px;
+        left: 160px;
+        bottom: 0px;
+        top: 585px;
+    }
 
 }
 
 
-@media screen and (max-width: 768px){
-    
-}
-
-
-@media screen and (max-width: 320px){
-    
-}
+@media screen and (max-width: 320px) {}
