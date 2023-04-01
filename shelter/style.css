@@ -1,18 +1,14 @@
-body {
-    margin: 0px;
-    padding: 0px;
-
-}
-
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
+
 .center {
-    margin: auto;
     position: relative;
-    width: 1280px;
+    margin: auto;
+
+
 }
 
 header {
@@ -780,7 +776,7 @@ header {
     position: absolute;
     flex-direction: column;
     align-items: center;
-    padding: 15px 45px;
+    padding: 15px, 45px, 15px, 45px;
     gap: 10px;
 
     position: absolute;
@@ -897,6 +893,11 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-content: stretch;
+    flex-wrap: wrap;
+    align-items: center;
+    left: auto;
+    width: 70%;
 
     font-family: 'Georgia';
     font-style: normal;
@@ -906,6 +907,7 @@ header {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    
     color: #545454;
 }
 
@@ -1381,19 +1383,19 @@ html {
     }
 
     .link_active {
-        left: 265px;
+        left: 260px;
     }
 
     .link2 {
-        left: 414px;
+        left: 409px;
     }
 
     .link3 {
-        left: 507px;
+        left: 502px;
     }
 
     .link4 {
-        left: 648px;
+        left: 643px;
     }
 
     .content {
@@ -1474,11 +1476,12 @@ html {
     .slider {
         width: 708px;
         height: 435px;
-        top: 150px;
+        top: 90px;
     }
 
     .buttonPrimery {
-        left: 234px;
+        left: 180px;
+        top: 700px;
     }
 
     .help {
@@ -1486,43 +1489,72 @@ html {
         height: 779px;
         top: 3090px;
     }
-    .help_content1{
+
+    .help_content1 {
         width: 630px;
         height: 599px;
         top: 80px;
         left: 69px;
     }
 
-    .help_head{
+    .help_head {
         width: 308px;
         height: 90px;
         left: 161px;
     }
-    .list{
+
+    .list {
+        flex-direction: column;
         width: 630px;
         height: 449px;
-        top: 150px;
+        top: 250px;
     }
 
-    .donation{
+    .donation {
         width: 768px;
         height: 783px;
         top: 3869px;
     }
 
-    .footer{
+    .donation_content {}
+
+    .donation_content2 {
+        width: 380px;
+        height: 282px;
+        top: 0px;
+        left: 0px;
+    }
+
+    .donation_dog {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 505px;
+        height: 261px;
+        top: 360px;
+        left: -50px;
+    }
+
+    .footer {
         width: 768px;
         height: 639px;
         top: 4652px;
     }
 
-    .footer_dog{
+    .footer_dog {
         width: 300px;
         height: 310px;
-        top: 329px;
-        left: 234px;
+        top: 288px;
+        left: 175px;
 
     }
+
+    .footer_location {
+        width: 302px;
+        height: 234px;
+        left: 330px;
+    }
+
 }
 
 
