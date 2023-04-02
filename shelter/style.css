@@ -1396,6 +1396,9 @@ a:hover {
 
 
 @media screen and (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
 
     .center {
         position: relative;

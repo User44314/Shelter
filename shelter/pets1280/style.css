@@ -258,23 +258,15 @@
      height: 90px;
      left: calc(50% - 400px/2);
      top: 0px;
-
-     /* h3 */
-
      font-family: 'Georgia';
      font-style: normal;
      font-weight: 400;
      font-size: 35px;
      line-height: 130%;
-     /* or 45px */
-
      display: flex;
      align-items: center;
      text-align: center;
      letter-spacing: 0.06em;
-
-     /* color-dark-l */
-
      color: #545454;
  }
 
@@ -1214,4 +1206,179 @@
 
  a.logo_title {
      text-decoration: none;
+ }
+
+
+ @media screen and (max-width: 1280px) {
+     html {
+         overflow-x: hidden;
+     }
+
+ }
+
+ @media screen and (max-width: 768px) {
+     html {
+         overflow-x: hidden;
+     }
+
+     header {
+         width: 768px;
+         height: 120px;
+     }
+
+     .start_screen {
+         width: 768px;
+         height: 1165px;
+     }
+
+     .link_active {
+         left: 250px;
+     }
+
+     .link2 {
+         left: 400px;
+     }
+
+     .link3 {
+         left: 490px;
+     }
+
+     .link4 {
+         left: 633px;
+     }
+
+
+     /* ---------------- */
+
+     .our_friends {
+         width: 768px;
+         height: 1733px;
+         top: 120px;
+     }
+
+     .pets_content {
+         width: 708px;
+         height: 1603px;
+         top: 60px;
+         left: 30px;
+     }
+
+     .cards_container {
+         width: 580px;
+         height: 365px;
+         top: 140px;
+         left: 64px;
+         border-radius: 9px;
+
+         /* flex-wrap: wrap;
+         align-content: stretch; */
+     }
+
+     .cards_container {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+     }
+
+     .heading {
+         width: 400px;
+         height: 90px;
+         top: 20px;
+         left: 154px;
+     }
+
+     .card {
+         top: 80px;
+         left: 20px;
+     }
+
+     .card1 {
+         top: 80px;
+         left: 320px;
+
+     }
+
+     .card2 {
+         top: 540px;
+         left: 20px;
+     }
+
+     .card3 {
+         top: 540px;
+         left: 320px;
+
+     }
+
+     .card4 {
+         top: 1000px;
+         left: 20px;
+     }
+
+     .card5 {
+         top: 1000px;
+         left: 320px;
+     }
+
+     .card6 {
+         visibility: hidden;
+     }
+
+     .card7 {
+         visibility: hidden;
+     }
+
+     .navigation {
+         width: 342px;
+         height: 52px;
+         top: 111px;
+         left: 430px;
+     }
+
+
+     /*   -----------footer */
+     .footer1 {
+         width: 768px;
+         height: 639px;
+         top: 1853px;
+     }
+
+     .footer_location {
+         left: 350px;
+     }
+
+     .footer_dog {
+         width: 300px;
+         height: 310px;
+         top: 288px;
+         left: 180px;
+     }
+
+     .favorite_styled4.textbuton4 {
+         top: 1350px;
+         left: -160px;
+     }
+
+     .favorite_styled.textbuton {
+         visibility: hidden;
+     }
+
+     .favorite_styled1.textbuton1 {
+         visibility: hidden;
+     }
+
+     .favorite_styled2.textbuton2 {
+         visibility: hidden;
+     }
+
+     .favorite_styled3.textbuton3 {
+         visibility: hidden;
+     }
+ }
+
+
+ @media screen and (max-width: 320px) {
+    html {
+        overflow-x: hidden;
+    }
+    
  }
