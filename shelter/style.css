@@ -1404,6 +1404,7 @@ a:hover {
         position: relative;
         margin: auto;
     }
+
     .start_screen {
         width: 768px;
         height: 1165px;
@@ -1589,6 +1590,7 @@ a:hover {
         height: 234px;
         left: 330px;
     }
+   
 
 }
 
@@ -1596,6 +1598,11 @@ a:hover {
 @media screen and (max-width: 320px) {
     html {
         overflow-x: hidden;
+    }
+
+    header {
+        width: 320px;
+        height: 120px;
     }
 
     .logo {
@@ -1909,7 +1916,7 @@ a:hover {
         left: 10px;
     }
 
-/*     .footer_contact {
+    /*     .footer_contact {
     
     } */
 
@@ -1946,7 +1953,8 @@ a:hover {
         top: -10px;
         left: 25px;
     }
-    .location2{
+
+    .location2 {
         font-size: 17px;
         top: -10px;
         left: 25px;
