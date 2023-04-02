@@ -1548,7 +1548,7 @@ a:hover {
         top: 3869px;
     }
 
-    .donation_content {}
+    /* .donation_content {} */
 
     .donation_content2 {
         width: 380px;
@@ -1906,9 +1906,9 @@ a:hover {
         left: 10px;
     }
 
-    .footer_contact {
-        /* text-align: center; */
-    }
+/*     .footer_contact {
+    
+    } */
 
     .location_head {
         font-size: 25px;
@@ -1949,5 +1949,5 @@ a:hover {
         left: 25px;
     }
 
-    .location_street2 {}
+    /* .location_street2 {} */
 }
