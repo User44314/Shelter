@@ -1,6 +1,8 @@
  html,
  body {
      min-width: 1280px;
+     scroll-behavior: smooth;
+     transition: all 1s ease-out;
  }
 
 
@@ -1215,6 +1217,12 @@
  @media screen and (max-width: 1280px) {
      html {
          overflow-x: hidden;
+         scroll-behavior: smooth;
+     }
+
+     .our_friends {
+         width: 1280px;
+         height: 1342px;
      }
 
 
@@ -1223,6 +1231,7 @@
  @media screen and (max-width: 768px) {
      html {
          overflow-x: hidden;
+         scroll-behavior: smooth;
      }
 
      header {
@@ -1230,10 +1239,10 @@
          height: 120px;
      }
 
-     .start_screen {
+    /*  .start_screen {
          width: 768px;
          height: 1165px;
-     }
+     } */
 
      .link_active {
          left: 250px;
@@ -1387,11 +1396,18 @@
  @media screen and (max-width: 320px) {
      html {
          overflow-x: hidden;
+         scroll-behavior: smooth;
      }
 
      .logo {
          left: -15px;
      }
+
+     .our_friends {
+         width: 320px;
+         height: 1649px;
+     }
+
 
      .burger_cont {
          visibility: visible;
@@ -1478,24 +1494,26 @@
          visibility: hidden;
      }
 
-     .card{
-        top: 10px;
-        left: -10px;
+     .card {
+         top: 10px;
+         left: -10px;
      }
-.card1{
-    top: 475px;
-    left: -10px;
-}
+
+     .card1 {
+         top: 475px;
+         left: -10px;
+     }
 
 
-     .card2{
-        top: 945px;
-        left: -10px;
+     .card2 {
+         top: 945px;
+         left: -10px;
      }
 
 
 
      .footer1 {
+         width: 320px;
          height: 809px;
          top: 1769px;
      }
@@ -1554,13 +1572,16 @@
          top: -10px;
          left: 25px;
      }
-     .cen{
-        top: 260px;
+
+     .cen {
+         top: 260px;
      }
-     .cen1{
-        top: 260px;
+
+     .cen1 {
+         top: 260px;
      }
-     .cen2{
-        top: 260px;
+
+     .cen2 {
+         top: 260px;
      }
  }
