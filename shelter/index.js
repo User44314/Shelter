@@ -1,47 +1,48 @@
 
 console.log('SHELTER_week_2');
 console.log('              ');
-console.log('Вёрстка страницы Main соответствует макету при ширине экрана 1280px:');
-console.log('блок <header>');
-console.log('блок Not only: ');
-console.log('блок About: ');
-console.log('блок Our Friends: ');
-console.log('блок Help:');
-console.log('блок In addition:');
+console.log('Вёрстка страницы Main соответствует макету при ширине экрана 1280px: +14');
+console.log('блок <header> +2');
+console.log('блок Not only: +2');
+console.log('блок About: +2');
+console.log('блок Our Friends: +2');
+console.log('блок Help:+2');
+console.log('блок In addition:+2');
 console.log('блок <footer>: +2');
-console.log('Вёрстка страницы Main соответствует макету при ширине экрана 768px:');
-console.log('блок <header>');
-console.log('блок Not only: ');
-console.log('блок About: ');
-console.log('блок Our Friends: ');
-console.log('блок Help:');
-console.log('блок In addition:');
+console.log('Вёрстка страницы Main соответствует макету при ширине экрана 768px: +14');
+console.log('блок <header> +2');
+console.log('блок Not only: +2');
+console.log('блок About: +2');
+console.log('блок Our Friends: +768');
+console.log('блок Help: +2');
+console.log('блок In addition: +2');
 console.log('блок <footer>: +2');
-console.log('Вёрстка страницы Main соответствует макету при ширине экрана 320px: ');
-console.log('блок <header>');
+console.log('Вёрстка страницы Main соответствует макету при ширине экрана 320px: +14');
+console.log('блок <header> +2');
 console.log('блок Not only: ');
-console.log('блок About: ');
-console.log('блок Our Friends: ');
-console.log('блок Help:');
-console.log('блок In addition:');
+console.log('блок About: +2');
+console.log('блок Our Friends: +2');
+console.log('блок Help: +2');
+console.log('блок In addition: +2');
 console.log('блок <footer>: +2');
-console.log('Вёрстка страницы Pets соответствует макету при ширине экрана 1280px:');
-console.log('блок <header>:');
-console.log('блок Our Friends');
-console.log('блок <footer>:');
-console.log('Вёрстка страницы Pets соответствует макету при ширине экрана 768px');
-console.log('блок <header>:');
-console.log('блок Our Friends');
-console.log('блок <footer>:');
-console.log('Вёрстка страницы Pets соответствует макету при ширине экрана 320px:');
-console.log('блок <header>:');
-console.log('блок Our Friends');
-console.log('блок <footer>:');
-console.log('Ни на одном из разрешений до 320px включительно не появляется горизонтальная полоса прокрутки, справа от отдельных блоков не появляются белые поля. \n Весь контент страницы при этом сохраняется: не обрезается и не удаляется:');
+console.log('Вёрстка страницы Pets соответствует макету при ширине экрана 1280px: +6');
+console.log('блок <header>: +2');
+console.log('блок Our Friends +2');
+console.log('блок <footer>: +2');
+console.log('Вёрстка страницы Pets соответствует макету при ширине экрана 768px +6');
+console.log('блок <header>: +6');
+console.log('блок Our Friends +6');
+console.log('блок <footer>: +6');
+console.log('Вёрстка страницы Pets соответствует макету при ширине экрана 320px: +6');
+console.log('блок <header>: +2');
+console.log('блок Our Friends +2');
+console.log('блок <footer>: +2');
+console.log('Ни на одном из разрешений до 320px включительно не появляется горизонтальная полоса прокрутки, справа от отдельных блоков не появляются белые поля. \n Весь контент страницы при этом сохраняется: не обрезается и не удаляется: +20');
 console.log('нет полосы прокрутки при ширине страницы Main от 1280рх до 768рх: +5 \n нет полосы прокрутки при ширине страницы Main от 768рх до 320рх: +5 \n нет полосы прокрутки при ширине страницы Pets от 1280рх до 768рх: +5 \n нет полосы прокрутки при ширине страницы Pets от 768рх до 320рх: +5');
-console.log('Верстка резиновая: при плавном изменении размера экрана от 1280px до 320px верстка подстраивается под этот размер, \n элементы верстки меняют свои размеры и расположение, не наезжают друг на друга, \n изображения могут менять размер, \n но сохраняют правильные пропорции: +8 \n на странице Main: +4 \n на странице Pets: +4');
-
-
+console.log('Верстка резиновая: при плавном изменении размера экрана от 1280px до 320px верстка подстраивается под этот размер, \n элементы верстки меняют свои размеры и расположение, не наезжают друг на друга, \n изображения могут менять размер, \n но сохраняют правильные пропорции: +0 \n на странице Main: +0 \n на странице Pets: +0');
+console.log('При ширине экрана меньше 768px на обеих страницах меню в хедере скрывается, появляется иконка бургер-меню: +2 \n Открытие меню при клике на иконку бургер-меню на текущем этапе не проверяется')
+console.log('Верстка обеих страниц валидная: +8')
+console.log('ИТОГО 90')
 
 /* 
 console.log('Shelter_week_1')
