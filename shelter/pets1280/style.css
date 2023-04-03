@@ -601,7 +601,7 @@
      width: 83px;
      height: 23px;
      left: 94px;
-     top: 300px;
+     top: 260px;
 
      /* pets-card-title */
 
@@ -627,7 +627,7 @@
      width: 83px;
      height: 23px;
      left: 94px;
-     top: 300px;
+     top: 260px;
 
      /* pets-card-title */
 
@@ -654,7 +654,7 @@
      width: 83px;
      height: 23px;
      left: 94px;
-     top: 300px;
+     top: 260px;
 
      /* pets-card-title */
 
@@ -681,7 +681,7 @@
      width: 83px;
      height: 23px;
      left: 94px;
-     top: 300px;
+     top: 260px;
 
      /* pets-card-title */
 
@@ -709,7 +709,7 @@
      width: 83px;
      height: 23px;
      left: 94px;
-     top: 300px;
+     top: 260px;
 
      /* pets-card-title */
 
@@ -736,7 +736,7 @@
      width: 65px;
      height: 23px;
      left: 103px;
-     top: 300px;
+     top: 260px;
 
      /* pets-card-title */
 
@@ -763,7 +763,7 @@
      width: 65px;
      height: 23px;
      left: 103px;
-     top: 300px;
+     top: 260px;
 
      /* pets-card-title */
 
@@ -790,7 +790,7 @@
      width: 65px;
      height: 23px;
      left: 103px;
-     top: 300px;
+     top: 260px;
 
      /* pets-card-title */
 
@@ -1293,7 +1293,7 @@
 
      .card {
          top: 80px;
-         left: 20px;
+         left: 0px;
      }
 
      .card1 {
@@ -1304,7 +1304,7 @@
 
      .card2 {
          top: 540px;
-         left: 20px;
+         left: 0px;
      }
 
      .card3 {
@@ -1315,7 +1315,7 @@
 
      .card4 {
          top: 1000px;
-         left: 20px;
+         left: 0px;
      }
 
      .card5 {
@@ -1553,5 +1553,14 @@
          font-size: 17px;
          top: -10px;
          left: 25px;
+     }
+     .cen{
+        top: 260px;
+     }
+     .cen1{
+        top: 260px;
+     }
+     .cen2{
+        top: 260px;
      }
  }
